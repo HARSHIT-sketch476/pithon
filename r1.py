@@ -1,0 +1,11 @@
+file = open('Codingal','r')
+print("Reading first lines......................................................................")
+print(file.readline())
+file.close()
+
+file = open('Codingal','r')
+print("Reading multiple lines...................................................................")
+print(file.readline())
+print(file.readline())
+print(file.readline())
+file.close()
